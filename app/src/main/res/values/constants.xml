@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- URL pour récupérer les données de notification -->
+    <string name="notification_data_url">https://telecom4all.be/tmj/tmj.json</string>
+
+    <!-- address réseaux sociaux et site  -->
+    <string name="facebookAppUrl">fb://profile/61558322909738</string>
+    <string name="facebookWebUrl">https://www.facebook.com/profile.php?id=61558322909738</string>
+    <string name="websiteUrl">https://www.tmj-music.be</string>
+
+    <!-- URL du flu audio -->
+     <string name="audio_flu_url">https://bbeamradio.ice.infomaniak.ch/bbeamradio-128.aac</string>
+    <!-- <string name="audio_flu_url">https://www2.cs.uic.edu/~i101/SoundFiles/CantinaBand60.wav</string>-->
+
+     <!-- Délai pour réactiver les boutons, en millisecondes -->
+    <integer name="button_reenable_delay">2000</integer>
+
+    <!-- Délai pour wakeLock.acquire, en millisecondes -->
+    <integer name="wakeLock_delay">600000</integer>
+
+    <!-- Heure, minute, seconde et milliseconde pour la notification -->
+    <integer name="notification_hour">16</integer>
+    <integer name="notification_minute">0</integer>
+    <integer name="notification_second">0</integer>
+    <integer name="notification_millisecond">0</integer>
+
+    <!-- Heure et minute pour les rappels en direct -->
+    <!-- <integer name="live_reminder_hour">16</integer>
+    <integer name="live_reminder_minute">45</integer>-->
+    <integer name="live_reminder_hour">16</integer>
+    <integer name="live_reminder_minute">45</integer>
+</resources>

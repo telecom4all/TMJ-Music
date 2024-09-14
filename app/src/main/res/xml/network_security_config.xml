@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Autoriser le trafic en clair pour le domaine du flux audio -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">miniplainmaster.bcast.infomaniak.ch</domain>
+    </domain-config>
+
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">bbeamradio.ice.infomaniak.ch</domain>
+    </domain-config>
+
+    <!-- Autoriser le trafic en clair pour le domaine du fichier JSON -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">telecom4all.be</domain>
+    </domain-config>
+</network-security-config>
+

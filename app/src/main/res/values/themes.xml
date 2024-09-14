@@ -1,0 +1,17 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.TMJMusic" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+
+    <!-- Style personnalisé pour l'AlertDialog -->
+    <style name="CustomAlertDialogTheme" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:background">#000000</item> <!-- Fond noir pour le contraste -->
+        <item name="android:textColorPrimary">#FFFFFF</item> <!-- Texte blanc pour un bon contraste sur fond noir -->
+        <item name="android:buttonTint">#00AFFF</item> <!-- Couleur des boutons, plus claire pour un meilleur contraste -->
+    </style>
+</resources>

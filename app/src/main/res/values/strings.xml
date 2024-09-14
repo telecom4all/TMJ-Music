@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TMJ Music</string>
+    <string name="logo_description">Logo de TMJ Music</string>
+    <string name="welcome_message">Bienvenue sur TMJ-Music !</string>
+    <string name="play_pause_description">Bouton Lecture/Pause</string>
+    <string name="facebook_description">Bouton Facebook</string>
+    <string name="website_description">Bouton pour visiter le site web</string>
+    <string name="settings_description">Bouton pour accéder aux paramètres</string>
+    <string name="live_en_cours">Live en cours!</string>
+</resources>
